@@ -6,6 +6,8 @@ Requires Postgres 9.5 or above because:
  - Uses JSONB columns
  - Uses ON CONFLICT
 
+Also compatible with TimescaleDB 0.8 or above.
+
  
 ## Installation
 
