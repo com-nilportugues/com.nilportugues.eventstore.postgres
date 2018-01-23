@@ -78,9 +78,9 @@
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>jul-to-slf4j</artifactId>
+            <artifactId>jcl-over-slf4j</artifactId>
             <version>1.7.25</version>
-        </dependency>      
+        </dependency>     
         <!-- ***********************************************************
         * TESTING: JUNIT
         ************************************************************ -->
