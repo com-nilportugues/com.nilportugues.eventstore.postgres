@@ -142,7 +142,7 @@ public class PostgresDataStore {
 			final CreateTableQuery createTable = new CreateTableQuery(table, true);
 			createTable.addColumnConstraint(idColumn, ConstraintClause.primaryKey(COLUMN_ID));
 			createTable.addColumnConstraint(eventIdColumn, ConstraintClause.unique(COLUMN_EVENT_ID));
-			createTable.addColumnConstraint(aggregateIdColumn, ConstraintClause.unique(COLUMN_AGGREGATE_ID));
+			//createTable.addColumnConstraint(aggregateIdColumn, ConstraintClause.unique(COLUMN_AGGREGATE_ID));
 
 			final String createTableSQL = createTable.validate().toString();
 			final Statement stmt = connection.createStatement();
